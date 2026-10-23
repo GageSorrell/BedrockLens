@@ -1,0 +1,13 @@
+{
+  "name": "bedrock-lens-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Preview Bedrock resource packs by rendering scenes in your worlds.",
+  "workspaces": [
+    "./Documentation",
+    "./Application/*",
+    "./Package/*",
+    "./Script/*"
+  ],
+  "type": "module"
+}
